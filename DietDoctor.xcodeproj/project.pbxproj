@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E546A5921B678CD001F7F4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E546A5821B678CD001F7F4F /* main.m */; };
+		5E546A5C21B678CD001F7F4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E546A5B21B678CD001F7F4F /* AppDelegate.m */; };
+		5E546A5F21B678CD001F7F4F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E546A5E21B678CD001F7F4F /* ViewController.m */; };
+		5E546A6221B678CD001F7F4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E546A6021B678CD001F7F4F /* Main.storyboard */; };
+		5E546A6421B678CD001F7F4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E546A6321B678CD001F7F4F /* Assets.xcassets */; };
+		5E546A6721B678CD001F7F4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E546A6521B678CD001F7F4F /* LaunchScreen.storyboard */; };
+		5E546A7221B678CD001F7F4F /* DietDoctorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E546A7121B678CD001F7F4F /* DietDoctorTests.m */; };
+		5E546A7D21B678CD001F7F4F /* DietDoctorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E546A7C21B678CD001F7F4F /* DietDoctorUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E546A6E21B678CD001F7F4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E546A4C21B678CD001F7F4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E546A5321B678CD001F7F4F;
+			remoteInfo = DietDoctor;
+		};
+		5E546A7921B678CD001F7F4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E546A4C21B678CD001F7F4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E546A5321B678CD001F7F4F;
+			remoteInfo = DietDoctor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E546A5421B678CD001F7F4F /* DietDoctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DietDoctor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E546A5821B678CD001F7F4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5E546A5A21B678CD001F7F4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5E546A5B21B678CD001F7F4F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5E546A5D21B678CD001F7F4F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5E546A5E21B678CD001F7F4F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5E546A6121B678CD001F7F4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E546A6321B678CD001F7F4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E546A6621B678CD001F7F4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E546A6821B678CD001F7F4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E546A6D21B678CD001F7F4F /* DietDoctorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DietDoctorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E546A7121B678CD001F7F4F /* DietDoctorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DietDoctorTests.m; sourceTree = "<group>"; };
+		5E546A7321B678CD001F7F4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E546A7821B678CD001F7F4F /* DietDoctorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DietDoctorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E546A7C21B678CD001F7F4F /* DietDoctorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DietDoctorUITests.m; sourceTree = "<group>"; };
+		5E546A7E21B678CD001F7F4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E546A5121B678CD001F7F4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E546A6A21B678CD001F7F4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E546A7521B678CD001F7F4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E546A4B21B678CD001F7F4F = {
+			isa = PBXGroup;
+			children = (
+				5E546A5621B678CD001F7F4F /* DietDoctor */,
+				5E546A7021B678CD001F7F4F /* DietDoctorTests */,
+				5E546A7B21B678CD001F7F4F /* DietDoctorUITests */,
+				5E546A5521B678CD001F7F4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E546A5521B678CD001F7F4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E546A5421B678CD001F7F4F /* DietDoctor.app */,
+				5E546A6D21B678CD001F7F4F /* DietDoctorTests.xctest */,
+				5E546A7821B678CD001F7F4F /* DietDoctorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E546A5621B678CD001F7F4F /* DietDoctor */ = {
+			isa = PBXGroup;
+			children = (
+				5E546A5A21B678CD001F7F4F /* AppDelegate.h */,
+				5E546A5B21B678CD001F7F4F /* AppDelegate.m */,
+				5E546A5D21B678CD001F7F4F /* ViewController.h */,
+				5E546A5E21B678CD001F7F4F /* ViewController.m */,
+				5E546A6021B678CD001F7F4F /* Main.storyboard */,
+				5E546A6321B678CD001F7F4F /* Assets.xcassets */,
+				5E546A6521B678CD001F7F4F /* LaunchScreen.storyboard */,
+				5E546A6821B678CD001F7F4F /* Info.plist */,
+				5E546A5721B678CD001F7F4F /* Supporting Files */,
+			);
+			path = DietDoctor;
+			sourceTree = "<group>";
+		};
+		5E546A5721B678CD001F7F4F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E546A5821B678CD001F7F4F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E546A7021B678CD001F7F4F /* DietDoctorTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E546A7121B678CD001F7F4F /* DietDoctorTests.m */,
+				5E546A7321B678CD001F7F4F /* Info.plist */,
+			);
+			path = DietDoctorTests;
+			sourceTree = "<group>";
+		};
+		5E546A7B21B678CD001F7F4F /* DietDoctorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5E546A7C21B678CD001F7F4F /* DietDoctorUITests.m */,
+				5E546A7E21B678CD001F7F4F /* Info.plist */,
+			);
+			path = DietDoctorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E546A5321B678CD001F7F4F /* DietDoctor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E546A8121B678CD001F7F4F /* Build configuration list for PBXNativeTarget "DietDoctor" */;
+			buildPhases = (
+				5E546A5021B678CD001F7F4F /* Sources */,
+				5E546A5121B678CD001F7F4F /* Frameworks */,
+				5E546A5221B678CD001F7F4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DietDoctor;
+			productName = DietDoctor;
+			productReference = 5E546A5421B678CD001F7F4F /* DietDoctor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E546A6C21B678CD001F7F4F /* DietDoctorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E546A8421B678CD001F7F4F /* Build configuration list for PBXNativeTarget "DietDoctorTests" */;
+			buildPhases = (
+				5E546A6921B678CD001F7F4F /* Sources */,
+				5E546A6A21B678CD001F7F4F /* Frameworks */,
+				5E546A6B21B678CD001F7F4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E546A6F21B678CD001F7F4F /* PBXTargetDependency */,
+			);
+			name = DietDoctorTests;
+			productName = DietDoctorTests;
+			productReference = 5E546A6D21B678CD001F7F4F /* DietDoctorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5E546A7721B678CD001F7F4F /* DietDoctorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E546A8721B678CD001F7F4F /* Build configuration list for PBXNativeTarget "DietDoctorUITests" */;
+			buildPhases = (
+				5E546A7421B678CD001F7F4F /* Sources */,
+				5E546A7521B678CD001F7F4F /* Frameworks */,
+				5E546A7621B678CD001F7F4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E546A7A21B678CD001F7F4F /* PBXTargetDependency */,
+			);
+			name = DietDoctorUITests;
+			productName = DietDoctorUITests;
+			productReference = 5E546A7821B678CD001F7F4F /* DietDoctorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E546A4C21B678CD001F7F4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "RIVAS, LOUIE JAY ABADIA";
+				TargetAttributes = {
+					5E546A5321B678CD001F7F4F = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					5E546A6C21B678CD001F7F4F = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5E546A5321B678CD001F7F4F;
+					};
+					5E546A7721B678CD001F7F4F = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5E546A5321B678CD001F7F4F;
+					};
+				};
+			};
+			buildConfigurationList = 5E546A4F21B678CD001F7F4F /* Build configuration list for PBXProject "DietDoctor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E546A4B21B678CD001F7F4F;
+			productRefGroup = 5E546A5521B678CD001F7F4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E546A5321B678CD001F7F4F /* DietDoctor */,
+				5E546A6C21B678CD001F7F4F /* DietDoctorTests */,
+				5E546A7721B678CD001F7F4F /* DietDoctorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E546A5221B678CD001F7F4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E546A6721B678CD001F7F4F /* LaunchScreen.storyboard in Resources */,
+				5E546A6421B678CD001F7F4F /* Assets.xcassets in Resources */,
+				5E546A6221B678CD001F7F4F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E546A6B21B678CD001F7F4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E546A7621B678CD001F7F4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E546A5021B678CD001F7F4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E546A5F21B678CD001F7F4F /* ViewController.m in Sources */,
+				5E546A5C21B678CD001F7F4F /* AppDelegate.m in Sources */,
+				5E546A5921B678CD001F7F4F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E546A6921B678CD001F7F4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E546A7221B678CD001F7F4F /* DietDoctorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E546A7421B678CD001F7F4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E546A7D21B678CD001F7F4F /* DietDoctorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E546A6F21B678CD001F7F4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E546A5321B678CD001F7F4F /* DietDoctor */;
+			targetProxy = 5E546A6E21B678CD001F7F4F /* PBXContainerItemProxy */;
+		};
+		5E546A7A21B678CD001F7F4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E546A5321B678CD001F7F4F /* DietDoctor */;
+			targetProxy = 5E546A7921B678CD001F7F4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5E546A6021B678CD001F7F4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E546A6121B678CD001F7F4F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E546A6521B678CD001F7F4F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E546A6621B678CD001F7F4F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E546A7F21B678CD001F7F4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E546A8021B678CD001F7F4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E546A8221B678CD001F7F4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DietDoctor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Louie.DietDoctor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5E546A8321B678CD001F7F4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DietDoctor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Louie.DietDoctor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5E546A8521B678CD001F7F4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DietDoctorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Louie.DietDoctorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DietDoctor.app/DietDoctor";
+			};
+			name = Debug;
+		};
+		5E546A8621B678CD001F7F4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DietDoctorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Louie.DietDoctorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DietDoctor.app/DietDoctor";
+			};
+			name = Release;
+		};
+		5E546A8821B678CD001F7F4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DietDoctorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Louie.DietDoctorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DietDoctor;
+			};
+			name = Debug;
+		};
+		5E546A8921B678CD001F7F4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DietDoctorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Louie.DietDoctorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DietDoctor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E546A4F21B678CD001F7F4F /* Build configuration list for PBXProject "DietDoctor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E546A7F21B678CD001F7F4F /* Debug */,
+				5E546A8021B678CD001F7F4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E546A8121B678CD001F7F4F /* Build configuration list for PBXNativeTarget "DietDoctor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E546A8221B678CD001F7F4F /* Debug */,
+				5E546A8321B678CD001F7F4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5E546A8421B678CD001F7F4F /* Build configuration list for PBXNativeTarget "DietDoctorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E546A8521B678CD001F7F4F /* Debug */,
+				5E546A8621B678CD001F7F4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5E546A8721B678CD001F7F4F /* Build configuration list for PBXNativeTarget "DietDoctorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E546A8821B678CD001F7F4F /* Debug */,
+				5E546A8921B678CD001F7F4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E546A4C21B678CD001F7F4F /* Project object */;
+}
